@@ -84,16 +84,17 @@ header {
 
 .s5 :hover {
     background-color: #FFA62B;
+    color: white;
 }
 
 .d1 {
     font-size: 24px;
     line-height: 32px;
-    color: #252B42;
+  
 }
 
 .d2 {
-    color: #737373;
+   
     font-size: 14px;
     line-height: 20px;
 }
@@ -104,7 +105,7 @@ header {
     align-items: center;
     margin-top: -100px;
     padding-bottom: 120px;
-
+   
 
 
 }
@@ -137,6 +138,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: end;
+    cursor: pointer;
 }
 
 .d4 {
@@ -149,7 +151,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-
+cursor: pointer;
 }
 
 .d5 {
@@ -157,14 +159,17 @@ header {
     width: 330px;
     height: 210px;
     background-color: rgb(255, 255, 255);
-    text-decoration: rgb(0, 0, 0);
+    text-decoration: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
-
+    
+cursor: pointer;
 
 }
+
+
 
 .f {
     display: flex;
@@ -254,12 +259,12 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-     transition: 0.3s;
-   
+    transition: 0.3s;
+
     cursor: pointer;
 }
 
-.g4:hover{
+.g4:hover {
     box-shadow: 1px 1px 9px;
 }
 
@@ -416,7 +421,7 @@ header {
 
 .e1 {
     text-align: center;
-    color: #737373;
+    color: #ffffff;
     font-size: 18px;
     padding-bottom: 80px;
 }
@@ -444,69 +449,82 @@ header {
 .e2:hover {
     background-color: #252B42;
     border: 2px solid #ffffff;
+    color: white;
 }
-.t1{
+
+.t1 {
     width: 1050px;
     height: 50px;
 }
-.t2{
+
+.t2 {
     width: 1050px;
     padding-bottom: 150px;
     text-align: start;
 
 }
-.t3{
- margin-left: 460px;
- width: 163px;
- height: 58px;
- background-color: #ffffff;
-  border: 2px solid #FFA62B;
-  transition: 0.3s;
- 
-  margin-top: 50px;
+
+.t3 {
+    margin-left: 460px;
+    width: 163px;
+    height: 58px;
+    background-color: #ffffff;
+    border: 2px solid #FFA62B;
+    transition: 0.3s;
+
+    margin-top: 50px;
 }
-.t3:hover{
+
+.t3:hover {
     background-color: #FFA62B;
     color: white;
 }
-#t5{
+
+#t5 {
     padding-bottom: 100px;
 }
-.t6{
+
+.t6 {
     width: 1050px;
     height: 50px;
-      border: 2px solid #5b5b5b;
+    border: 2px solid #5b5b5b;
 }
-.i{
-  
+
+.i {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#u{
+
+#u {
     background-color: #16697A;
     height: 307px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.i ul li a{
+
+.i ul li a {
     color: white;
     font-size: 16px;
-    
+
 }
-.i ul li{
+
+.i ul li {
     padding-top: 20px;
 }
-.kkk{
+
+.kkk {
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding-top: 60px;
     padding-bottom: 90px;
 }
-.k8{
+
+.k8 {
     display: flex;
     justify-content: center;
     align-items: center;
